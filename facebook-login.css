@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    background: #eff6ffcc;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .container {
+    justify-content: center;
+    align-items: center;
+} */
+
+.logo {
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img {
+    height: 100px;
+    align-content: center;
+}
+
+.singup {
+    width: 432px;
+    height: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px rgb(188, 188, 188);
+    margin: auto;
+}
+
+.singup-h4-p h4 {
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 32px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.singup-h4-p p {
+    margin-top: 0;
+    text-align: center;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(100, 102, 104);
+
+}
+
+.form-div {
+    padding: 30px;
+
+}
+
+.name-section {
+    display: flex;
+    margin: auto;
+    margin-top: -13px;
+
+}
+
+.f-name {
+    border: 1px solid gray;
+    width: 160px;
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 10px;
+}
+
+.s-name {
+    border: 1px solid gray;
+    width: 160px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.f-name input,
+.s-name input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-right: 1px;
+    align-items: center;
+    width: 150px;
+}
+
+.email {
+    width: 351px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.password {
+    width: 351px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 12px;
+}
+
+.email input,
+.password input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-right: 1px;
+    align-items: center;
+    width: 150px;
+}
+
+.dob-section {
+    width: 351px;
+    /* display: flex; */
+}
+
+.dob-text {
+    margin-top: 10px;
+}
+
+.dob-text p {
+    text-align: left;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(100, 102, 104);
+}
+
+.dob-day-month-year {
+    display: flex;
+    width: 371px;
+    margin-top: -8px;
+
+}
+
+.day-class {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.month-class {
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.year-class {
+    width: 120px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.gender-section {
+    width: 371px;
+}
+
+.gender-text p {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(100, 102, 104);
+}
+
+.gender-male-female-other {
+    display: flex;
+    margin-top: -8px;
+}
+
+.gender-male-female-other label {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.gender-male {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.gender-male input {
+    float: right;
+}
+
+.gender-female {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.gender-female input {
+    float: right;
+}
+
+.gender-other {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.gender-other input {
+    float: right;
+}
+
+.paragraph-section {}
+
+.paragraph-section p {
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: rgb(79, 79, 80);
+}
+
+.para2 {
+    margin-top: -20px;
+}
+
+.button-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-div button {
+    width: 200px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+
+}
+
+.already-account {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
